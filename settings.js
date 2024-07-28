@@ -37,7 +37,7 @@ const FOOTERNAME = '*Powered by prince*'; //Footer text
 //----------------OWNER NUMBER------------------------------//
 //////////////////////////////////////////////////////////////////
 
-global.owner = process.env.OWNER_NUMBER  || '923168598809' ;  //put your number without +
+global.owner = process.env.OWNER_NUMBER  || '237676448169' ;  //put your number without +
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -59,7 +59,7 @@ module.exports = { //exporting modules to use in plugins
 //----------------Session ID------------------------------//
 //////////////////////////////////////////////////////////////////
 
-SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUVGaCtQamxyNi9ndi9YUzFpMS9TS3hublFMNmc3RkFmNHdEckY1RVYyVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidlhmZURxZS9VZkY2MlFqWGhFa1ZDcGJXeHpXaW9kblJOK1pHUnloV21YST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIySmdFaUc5ZFNNWGlZb1Rya2lYZ1pGL2g0YUtlQkk5OW5qb0NTc1ROa0dRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJyV2hhR1BHWmNrTmdWQVhMWUdSZGRTcXAwRFdFdjM4dkIvdUllR0JLWUFvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklOZy9SV3Z6NkZTVFRvYkhGcjNoWDJaVzY4aDBBVHJIMlBnd1c3eWxrSFE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkRJUkF5ZUpTbzdMT3RHdDNkQlhBcGJpVXI3UEo0YUlrMEE2SGx6Si9GM1E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYVAwbEs4eVdoTCtELzBLN2hRYU1mVnFoU2poNGRrWkRWdjk0MEFwYWFXWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZFFvb0dKK2hQQkNFc3prWDBQb1ZFamJBT1I5emNFRlFTbGtDQ2dXdkpWMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlYwdW1vN2crUXJSakpNN1NselBhdDJ4dXBZakEydGFITnhQd3gzUk9qdkd3Y1hPdTB6M1JVQmE5Z1E3K3Q4dnZRMnM5UDFmdTdZZTZHck5OQ2Rsc2h3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTM4LCJhZHZTZWNyZXRLZXkiOiJ0TmdVTWM2aUJuUWo5cjkySDl5NlJYTkpZTSs4ZnowZGNJSTV5OUJma1RNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJNdjN3RmdXRlFPSzN5bEF2OVFwT1VBIiwicGhvbmVJZCI6IjQ3NTUxNzE0LWYzZDEtNGZkNS05ODYwLWVlZjFhNzY0M2QyYyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJUcVFLeWMxdHJDS2czYllBaEVGY3VhQm5jaHc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNGFoQ2JLbUl1U1BrOGpjNk5zSWtyZjBPZzJvPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjJOWDhLWFdDIiwibWUiOnsiaWQiOiIyMzc2OTk1NjEyOTk6OUBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLhtI3KgNyURM6jzptETc6b0J8ifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0tYN2gvWUZFTk9ta3JVR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImlmcUduWVl4cnVTNEJkQ3YzWnlTbHN4WFp5cnhFRDk4UitLN01XZEQ2WFU9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkRyZHJxK0pkN1VtNFBCNC9hVjJvLzYzMURQMGY0UWMrdjVIdE5SWHdsSlE3ZmxSZmVzb2VPclJ4MlFYM04vTXVnRlFUSVIySlNHVFBXZFROdThBaEN3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJLaVI4L3NwditJMFZjd3FsWW5kRGtFdmNkMUJUY2gwYmpESXNaWHo5VlhNZXJSMnRHWFM5MDFwODIxME9CU0RJR1haT0t1SUFXSDhjTzQyK0g3RHhodz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNzY5OTU2MTI5OTo5QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlluNmhwMkdNYTdrdUFYUXI5MmNrcGJNVjJjcThSQS9mRWZpdXpGblErbDEifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjIwNjE2NjgsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBTkZCIn0=', //Paste your session ID here
+SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTVArMllyNktYSmxQdjJmMnArYVFmOHNkRXQvRjE0RXhMd3JSalJhZnMwcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTGdIOVZxQXV5M0JCa3gycGttSGt1VTloSTZiU1FUa0J1S1BRR0dEK2dtZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1Q1o1VVJPVkk3V1V0OGkzbVFOVHZJbGpXS1RQcjRxWUxObTlmbHlFYTFFPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPbzFONGV1MklwT29HL0FnL2pOcC9XS280TDJ0ZEppczhRbTNOaHVUV0FNPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVOU0U3VFlIdHliUFFiOUFoNW11eXl5TDEwaFVaV09JRXF2c1VpcHJEbXM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkRZc3MwSGtkNmZFRTAzblFiaXlaNU1Bdzh5cmdMRkhWY2RsUzdTMmJ1UWs9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0dOOWY2Y0FGczFMN3dwK21WRW1VbXpnU2NNNDFEdC9HNHVxc3JCV2luOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSnh4UHFtcHVOWEs2T1l6NE5uaWdjNmF0VTdXc3lwekcyUGgxSlZIZXExOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik5WZDBQTisxUTVnZkpjTmVEOGtFY2JkaUhoV0dVS2VTamxhZUNFSmFTQUJKTVFMYllLdHB2NXlnbUh1ZUNnUSs2Z2tPcDE5NU1QYy9kdXR5ZUlJUWhRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MSwiYWR2U2VjcmV0S2V5IjoiWkplVVFXV1pDQUlLZ21qcHZ3VEZiY0JNc25oeVNHNHlGM3ZPeitpZDZzVT0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiclM3UUFHUEFSVWVILXR6ZWVUMHc0USIsInBob25lSWQiOiJmYTFmODM1Zi1jMjI0LTQ4NzYtYjQzMS03NDViN2UyMTU4OWMiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicS9VejUrUzRpSnpPMm4xKy9XSlRjSVdZWUhrPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlJuZi8xQTlsb3RPd2RzRVNkdzVvWTkrN203RT0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJRTkc4TFlKUyIsIm1lIjp7ImlkIjoiMjM3Njk5NTYxMjk5OjEwQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IuG0jcqA3JREzqPOm0RNzpvQnyJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDS2I3aC9ZRkVMN0JtYlVHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiaWZxR25ZWXhydVM0QmRDdjNaeVNsc3hYWnlyeEVEOThSK0s3TVdkRDZYVT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiZ3UzclRwMHI5ZVR3ZUNiTHJoSHdYYnZ2cDdRcUVlVnEzYVBHRzBjanB3YWJlTWpKaElwZzJXaG5XeVNFY0ljSFVVMmFFNkRtWDlRbzBWZTM5dmpqQ2c9PSIsImRldmljZVNpZ25hdHVyZSI6Imk1TVpEZjRyZmxWRFVYdC9aclBrNjVNYXlQSEwwbzc4aVE4NUhvSkpqYi91MEoxOXBkaVBkTzg4Q1AyUE1PRHA4amhKck1MaUxRZ3lXRWpaV2RGWGpBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM3Njk5NTYxMjk5OjEwQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlluNmhwMkdNYTdrdUFYUXI5MmNrcGJNVjJjcThSQS9mRWZpdXpGblErbDEifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjIxNzk3ODd9', //Paste your session ID here
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -128,10 +128,10 @@ AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,  //true or false
 AUTO_READ:  process.env.AUTO_READ  || false  , //true or false
 //////////////////////////////////////////////////////////
 
-AUTO_BIO:  process.env.AUTO_BIO  || false  ,        //true or false
+AUTO_BIO:  process.env.AUTO_BIO  || true  ,        //true or false
 //////////////////////////////////////////////////////////
 
-ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,  //true or false
+ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || true  ,  //true or false
 //////////////////////////////////////////////////////////
 
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
@@ -170,7 +170,7 @@ AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,     //true or false
 AUTO_STICKER: process.env.AUTO_STICKER || false  , //true or false
 //////////////////////////////////////////////////////////
 
-WELCOME:  process.env.WELCOME  || false ,   //true or false
+WELCOME:  process.env.WELCOME  || true,   //true or false
 //////////////////////////////////////////////////////////
 
 ANTI_DELETE : process.env.ANTI_DELETE || false , //true or false
